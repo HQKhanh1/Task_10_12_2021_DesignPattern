@@ -10,8 +10,8 @@ public class Demo {
 
         //update student
         StudentInfo studentInfo = studentInfoDAO.getAllStudentInfos().get(4);
-        studentInfo.setFull_name("Nguyen Ngoc");
-        studentInfo.setUniversity_name("PTITHN");
+        studentInfo.setPhone("Nguyen Ngoc");
+        studentInfo.setUniversity("PTITHN");
         studentInfoDAO.saveStudentInfo(studentInfo);
         //After update
         System.out.println("After update");
